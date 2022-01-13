@@ -1,0 +1,126 @@
+.footer{
+  background-image: url("/src/img/footer/footer-fon.jpg");
+  height: 400px;
+}
+
+.footer-wrapper{
+  display: flex;
+}
+
+.footer-about-shop{
+  margin-top: 80px;
+  color: $color-white;
+}
+
+.about-shop-title{
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-shop-text{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+
+.footer-categorigis{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  color: $color-white;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+.categorigis-watch{
+  background-color: $color-black;
+  color: $color-light-grey;
+  border: none;
+  width: 70px;
+  height: 41px;
+  &:hover{
+    background-color: #1F1F1F;
+  }
+}
+
+.categorigis-bracer{
+  background-color: $color-black;
+  color: $color-light-grey;
+  border: none;
+  width: 98px;
+  height: 41px;
+  &:hover{
+    background-color: #1F1F1F;
+  }
+}
+
+.categorigis-belt{
+  background-color: $color-black;
+  color: $color-light-grey;
+  border: none;
+  width: 79px;
+  height: 41px;
+  &:hover{
+    background-color: #1F1F1F;
+  }
+}
+
+.categorigis-jewely{
+  background-color: $color-black;
+  color: $color-light-grey;
+  border: none;
+  width: 164px;
+  height: 41px;
+  &:hover{
+    background-color: #1F1F1F;
+  }
+}
+
+.categorigis-cufflinks{
+  background-color: $color-black;
+  color: $color-light-grey;
+  border: none;
+  width: 91px;
+  height: 41px;
+  &:hover{
+    background-color: #1F1F1F;
+  }
+}
+
+.footer-buttons-up{
+  margin-bottom: 20px;
+}
+
+
+.footer-mails{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  color: $color-white;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-mails-text{
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.footer-mails-input{
+  display: flex;
+}
+
+.input-button{
+  background-color: $color-black;
+  color: $color-light-grey;
+  border: none;
+  width: 140px;
+  height: 41px;
+  &:hover{
+    background-color: #1F1F1F;
+  }
+}
+
+.input-text{
+  background-color: $color-light-grey;
+  font-size: 18px;
+}

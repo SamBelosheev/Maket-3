@@ -1,0 +1,19 @@
+.our-conteyner{
+  background-color: $color-grey;
+}
+
+.our-brands-wrapper{
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+.our-brands-text{
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+
+//abstrackt
+@import "abstrackt/constans";
+@import "abstrackt/mixins";
+
+//base
+@import "base/base";
+//components
+@import "components/header";
+@import "components/promo";
+@import "components/main";
+@import "components/shop";
+@import "components/our-brands";
+@import "components/footer";
+
+//layout
+@import "layout/conteyner";
+@import "layout/layout";

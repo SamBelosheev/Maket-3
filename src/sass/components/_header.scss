@@ -1,0 +1,81 @@
+.header{
+  background-color: $color-black;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.down-conteyner{
+  background-color: $color-grey;
+}
+
+.upper-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  gap: 10px;
+  display: flex;
+  color: $color-white;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    color: gold;
+  }
+}
+
+.header-right{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  color: $color-white;
+  cursor: pointer;
+  &:hover{
+    color: gold;
+  }
+}
+
+.down-wrapper{
+  background-color: $color-grey;
+  color: $color-white;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-buttons{
+  display: flex;
+  align-items: center;
+}
+
+.header-button{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  border: none;
+  background-color: $color-grey;
+  color: $color-white;
+  width: 136px;
+  height: 80px;
+}
+
+.header-button:hover{
+  background-color: #1F1F1F;
+}
+
+.header-cart{
+  padding-left: 40px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.header-search{
+  padding-left: 40px;
+  padding-right: 2px;
+  cursor: pointer;
+}
