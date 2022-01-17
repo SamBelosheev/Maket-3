@@ -41,7 +41,7 @@
 
 
 .main-upper-right{
-  background-image: url("/src/img/main/upper-photo.svg");
+  background-image: url("../img/main/upper-photo.svg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +79,7 @@
 }
 
 .main-down-left{
-  background-image: url("/src/img/main/down-photo.svg");
+  background-image: url("../img/main/down-photo.svg");
   width: 100%;
   height: 600px;
 }
